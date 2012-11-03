@@ -1,6 +1,8 @@
 Chrome Tabsize
 ==============
-This is a chrome extension for setting tabsize in chrome browser. Cause google app store need $5 for developer to register, it is really hard for me. (I mean it does't accpet paypal). And this extension is also for free using. So, if you want to use, you need to install it by hand and by source.
+This is a chrome extension for setting tabsize in chrome browser. Cause google app store need $5 for developer to register, it is really hard for me. (I mean it does't accpet paypal). And this extension is also for free using. So, if you want to use, you need to install it by hand and by source. It is really simple, no more than 3 steps.
+
+**This project's Code is under BSD/GPL**.
 
 How to install
 ---------------
