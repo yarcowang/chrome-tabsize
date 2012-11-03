@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Github Custom Tabsize</title>
+    <style>
+      body {
+        font-family: sans-serif;
+				margin-left: 20px;
+      }
+			label {
+				display: block;
+			}
+			div {
+				margin-bottom: 20px;
+			}
+			#msg {
+				height: 20px;
+				background-color: #ccc;
+				padding: 5px;
+				font-weight: bold;
+			}
+    </style>
+  </head>
+  <body>
+		<div id="msg"></div>
+
+    <h3>Github Custom Tabsize</h3>
+
+		<div>
+			<p>this is an extension to set tab size ( just like set ts=4 in vim), special for viewing github.com source code.</p>
+			<label><input name="tabsize" id="tabsize2" type="radio" /> 2 spaces</label>
+			<label><input name="tabsize" id="tabsize4" type="radio" /> 4 spaces</label>
+			<label><input name="tabsize" id="tabsize8" type="radio" /> 8 spaces</label>
+			<br />
+			<label><input name="github_only" id="github_only" type="checkbox" /> github only</label>
+			<p><i>you should notice that, this extension only affect texts in <b>&lt;pre&gt;</b> according to html render system.</i></p>
+		</div>
+
+		<div>
+			<button id="save">Save</button>
+		</div>
+
+		<script src="options.js"></script>
+  </body>
+</html>

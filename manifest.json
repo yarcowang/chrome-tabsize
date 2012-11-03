@@ -1,0 +1,29 @@
+{
+  "name": "Chrome Tabsize",
+  "version": "0.0.1",
+  "description": "extension for setting tabsize, special for github.",
+	"manifest_version": 2,
+	"icons": {
+		"48": "blacktocat48.png",
+		"128": "blacktocat128.png"
+	},
+	
+	"permissions": [
+		"storage", "tabs"
+	],
+
+	"options_page": "options.html",
+	"background": {"scripts": ["background.js"]},
+
+	"browser_action": {
+		"default_icon": "tabsize8.png",
+		"default_title": "Click to Switch!!!"
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["http://*/*","https://*/*"],
+			"js": ["main.js"]
+		}
+	]
+}
