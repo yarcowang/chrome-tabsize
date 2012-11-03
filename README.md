@@ -10,12 +10,18 @@ How to install
 
 How to use
 ----------
-* you could tabsize in _Options_
+* you could set tabsize in _Options_
+	
+	![options]
+	
+	
 * you could also click the button in the navigator bar. default should be a small button like this.
 
 	![tabsize8]
 
 	click to change.
+
+	![click2view]
 
 
 Suggestion
@@ -27,5 +33,6 @@ This guy currently works in Wiredcraft.com. So you could also get him by <yarco@
 
 All rights reserved by human.
 
-
+[options]:https://github.com/yarcowang/chrome-tabsize/blob/master/options.png?raw=true "options"
 [tabsize8]:https://github.com/yarcowang/chrome-tabsize/blob/master/tabsize8.png?raw=true "set tabsize=8"
+[click2view]:https://github.com/yarcowang/chrome-tabsize/blob/master/click2view.png?raw=true "click to change"
