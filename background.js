@@ -1,7 +1,5 @@
 var storage = chrome.storage.local;
 
-loadSaved();
-
 chrome.extension.onMessage.addListener(changeIcon);
 chrome.browserAction.onClicked.addListener(change);
 
@@ -9,13 +7,6 @@ function changeIcon(req, sender, res)
 {
 	chrome.browserAction.setIcon({
 		path: 'tabsize' + req.tabsize + '.png'
-	});
-}
-
-function loadSaved()
-{
-	storage.get({'tabsize': 8, 'github_only': false}, function(items) {
-		chrome.extension.sendMessage({'tabsize': items.tabsize, 'github_only': items.github_only});
 	});
 }
 
