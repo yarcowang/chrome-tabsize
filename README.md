@@ -51,6 +51,6 @@ This guy currently works in Wiredcraft.com. So you could also get him by <yarco@
 
 All rights reserved by human.
 
-[options]:https://github.com/yarcowang/chrome-tabsize/blob/master/chrome/options.png?raw=true "options"
-[tabsize8]:https://github.com/yarcowang/chrome-tabsize/blob/master/chrome/tabsize8.png?raw=true "set tabsize=8"
-[click2view]:https://github.com/yarcowang/chrome-tabsize/blob/master/chrome/click2view.png?raw=true "click to change"
+[options]:https://raw.github.com/yarcowang/chrome-tabsize/master/chrome-tabsize/options.png "options"
+[tabsize8]:https://raw.github.com/yarcowang/chrome-tabsize/master/chrome-tabsize/tabsize8.png "set tabsize=8"
+[click2view]:https://raw.github.com/yarcowang/chrome-tabsize/master/chrome-tabsize/click2view.png "click to change"
