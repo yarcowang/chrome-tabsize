@@ -12,9 +12,12 @@ So the repos may also includes:
 
 I dont want to create one repos for each extension if there will be more. So i hold everything here, if you feel it is not good, just delete others and leave what you want.
 
+**For chrome extensions**: Cause google app store need $5 for developer to register, it is really hard for me. (I mean it does't accpet paypal, and register only for app store seems useless). And this extension is also for free using. If you want to use, you need to install it by hand and by source. It is really simple, no more than 3 steps.
 
-* **[browser]-tabsize**
-  * _chrome-tabsize_ -- Cause google app store need $5 for developer to register, it is really hard for me. (I mean it does't accpet paypal, and register only for app store seems useless to me). And this extension is also for free using. If you want use, you need to install it by hand and by source. It is really simple, no more than 3 steps.
+Here we list the extensions current valid:
+
+* **[browser]-tabsize** -- deal with tabsize under browser environment (just like set ts=4 in vim)
+* **[browser]-xmethod** -- add a `xmethod` attribute to force form supporting `put` and `delete` methods. Which might be useful to those who do backend and require a frontend prototype page for testing for the REST api
 
 **This project's Code is under BSD/GPL**.
 
@@ -41,6 +44,31 @@ Chrome-Tabsize
 
 	![click2view]
 
+Chrome-XMethod
+--------------
+### Intro
+If you are a man like me doing backend script. For example, you did a REST api which accept a POST, and another api which accept a PUT. You may want to do tests.
+
+If frontend is not ready, you'd like to create a simple html page to do a prototype app which could explain what you did at backend.
+
+But the problem is **form in html doest support PUT/DELETE method**, that is really not a good news for you. Certainly you can include jQuery to do so, but that makes your testing boring…NO! I just want to test backend. You'd like to keep things simple.
+
+That is it. A extension to make a form support **PUT/DELETE** which acts like a normal POST.
+
+### How to install
+same as _chrome-tabsize_.
+
+### How to use
+```
+<form action="/somewhere" xmethod="put">
+<input type="text" name="aaa" value="bbb" />
+<input type="submit" value="Submit" />
+</form>
+```
+So you only need to set an attribute `xmethod="put" or xmethod="delete"` of the form.
+
+### Notice
+It doest support things like `type="file"`.
 
 Suggestion
 -----------
