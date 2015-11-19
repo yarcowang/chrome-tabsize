@@ -1,5 +1,12 @@
 Extensions
 ===========
+** Updated: 2015-11-19  
+This repos is deprecated. I direct publish extensions into google store. So no github repos.  
+You can choose [Customize Tabsize](https://chrome.google.com/webstore/detail/customize-tabsize/idgdldceinafnbjkfmdphkogjfafpjhp) instead.  
+But for github supports spaces now, the extension does nothing to github codes. Pelease choose another extension.  
+_This extension is affecting `tab`size only._
+**
+
 This project is original for chrome browser (so the name is chrome tabsize). Then i have this idea:
 
 * we may also extend it to support firefox, safari etc.  
